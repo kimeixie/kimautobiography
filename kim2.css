@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.homeimg{ max-width: 320px;
+    float: center;
+    margin-right: 15px;
+}
+
+   
+ 
+   
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+margin: 150px auto;
+width: 70%;
+}
+img{
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+}
+
+.text-box{
+    color: hotpink;
+}
+
+.text-box h1{
+    font-size:42px ;
+}
+.text-box p{
+    font-size: 16px;
+}

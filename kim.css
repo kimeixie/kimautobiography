@@ -1,0 +1,36 @@
+
+.homeimg{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+ }
+
+section {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    max-width: 1200px;
+    width: 95%;
+}
+
+.slider-wrapper .image-list {
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    overflow-x: auto;
+    grid-template-columns: repeat(27, 1fr);
+}
+
+    .slider-wrapper .image-list .image-item{
+    width: 325px;
+    height: 400;
+    object-fit: cover;
+    
+}
+
+
